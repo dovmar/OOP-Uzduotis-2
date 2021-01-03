@@ -29,6 +29,7 @@ Vardas2     Pavardė2    7    10    8    5    4    6
 ```c++
 paleisti(Stud, Stud2);
 ```
+
  galite rankiniu būdu pasirinkti su kokiais parametrais programa turėtų veikti, pavyzdžiui:
 ```c++
 sugeneruotiFaila(1000, 10, "generuotas1000.txt");
@@ -60,7 +61,7 @@ sugeneruotiFaila(1000, 10, "generuotas1000.txt");
 
 ```c++
 Studentas::Studentas(const Studentas& stud) : vardas_{ stud.vardas_ }, pavarde_{ stud.pavarde_ },
-nd_{ stud.nd_ }, egzaminas_{ stud.egzaminas_ } {}
+nd_{ stud.nd_ }, egzaminas_{ stud.egzaminas_ }, paz_vid_{ stud.paz_vid_ }, paz_med_{ stud.paz_med_ } {}
 
 ```
 
